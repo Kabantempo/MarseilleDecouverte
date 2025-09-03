@@ -1,0 +1,64 @@
+/* Style général pour toutes les pages */
+.page-container {
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px rgba(21,101,192,0.08);
+}
+
+.page-container h1,
+.page-container h2 {
+  color: #1565c0;
+  margin-bottom: 18px;
+  font-weight: 700;
+}
+
+.page-container p,
+.page-container ul {
+  font-size: 1.15rem;
+  color: #333;
+  margin-bottom: 18px;
+}
+
+.page-container ul {
+  padding-left: 24px;
+}
+
+.page-container li {
+  margin-bottom: 10px;
+}
+
+/* Accent pour chaque section */
+.hero {
+  background: linear-gradient(90deg, #1976d2 0%, #64b5f6 100%);
+  color: #fff;
+  border-radius: 12px;
+  padding: 32px 24px;
+  margin-bottom: 32px;
+  box-shadow: 0 2px 8px rgba(21,101,192,0.12);
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 12px;
+}
+.hero-subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+  .page-container {
+    padding: 10px;
+    border-radius: 8px;
+  }
+  .hero {
+    padding: 18px 8px;
+    border-radius: 8px;
+  }
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+}

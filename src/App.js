@@ -2,6 +2,7 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import HeaderNav from './components/HeaderNav';
+import PageTransition from './components/PageTransition';
 import Footer from './components/Footer';
 import Accueil from './pages/Accueil';
 import Contact from './pages/Contact';
@@ -14,21 +15,23 @@ import NosVisites from './pages/NosVisites';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/MarseilleDecouverte">
       <div className="App">
         <HeaderNav />
-        <div style={{ minHeight: '80vh' }}>
-          <Routes>
-            <Route path="/" element={<Accueil />} />
-            <Route path="/contact" element={<Contact />} />
-            <Route path="/a-propos" element={<APropos />} />
-            <Route path="/objectifs" element={<Objectifs />} />
-            <Route path="/valeurs" element={<Valeurs />} />
-            <Route path="/public" element={<Public />} />
-            <Route path="/partenaire" element={<Partenaire />} />
-            <Route path="/nos-visites" element={<NosVisites />} />
-          </Routes>
-        </div>
+        <PageTransition>
+          <div style={{ minHeight: '80vh' }}>
+            <Routes>
+              <Route path="/" element={<Accueil />} />
+              <Route path="/contact" element={<Contact />} />
+              <Route path="/a-propos" element={<APropos />} />
+              <Route path="/objectifs" element={<Objectifs />} />
+              <Route path="/valeurs" element={<Valeurs />} />
+              <Route path="/public" element={<Public />} />
+              <Route path="/partenaire" element={<Partenaire />} />
+              <Route path="/nos-visites" element={<NosVisites />} />
+            </Routes>
+          </div>
+        </PageTransition>
         <Footer />
       </div>
     </Router>

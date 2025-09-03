@@ -20,7 +20,8 @@ const Footer = () => (
       </div>
     </div>
     <div className="footer-bottom">
-      &copy; {new Date().getFullYear()} Marseille Découverte. Tous droits réservés.
+      &copy; {new Date().getFullYear()} Marseille Découverte. Tous droits réservés.<br />
+      Réalisé par <a href="https://github.com/KabanTempo" target="_blank" rel="noopener noreferrer">KabanTempo</a> — Mentions légales : ce site est une création personnelle.
     </div>
   </footer>
 );

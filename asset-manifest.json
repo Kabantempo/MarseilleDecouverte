@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/MarseilleDecouverte/static/css/main.7c6a413d.css",
-    "main.js": "/MarseilleDecouverte/static/js/main.6622938a.js",
+    "main.css": "/MarseilleDecouverte/static/css/main.4087815e.css",
+    "main.js": "/MarseilleDecouverte/static/js/main.14e54013.js",
     "static/js/453.de6dfbd4.chunk.js": "/MarseilleDecouverte/static/js/453.de6dfbd4.chunk.js",
     "index.html": "/MarseilleDecouverte/index.html",
-    "main.7c6a413d.css.map": "/MarseilleDecouverte/static/css/main.7c6a413d.css.map",
-    "main.6622938a.js.map": "/MarseilleDecouverte/static/js/main.6622938a.js.map",
+    "main.4087815e.css.map": "/MarseilleDecouverte/static/css/main.4087815e.css.map",
+    "main.14e54013.js.map": "/MarseilleDecouverte/static/js/main.14e54013.js.map",
     "453.de6dfbd4.chunk.js.map": "/MarseilleDecouverte/static/js/453.de6dfbd4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c6a413d.css",
-    "static/js/main.6622938a.js"
+    "static/css/main.4087815e.css",
+    "static/js/main.14e54013.js"
   ]
 }

@@ -1,0 +1,63 @@
+.home-container {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  min-height: 100vh;
+  padding: 0 0 40px 0;
+}
+
+.hero {
+  background: url('/public/logo192.png') no-repeat right center;
+  background-size: 120px;
+  padding: 60px 30px 30px 30px;
+  text-align: left;
+}
+.hero h1 {
+  font-size: 2.8rem;
+  color: #1565c0;
+  margin-bottom: 10px;
+}
+.hero-subtitle {
+  font-size: 1.3rem;
+  color: #333;
+  margin-bottom: 0;
+}
+
+section {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(21,101,192,0.08);
+  margin: 30px auto;
+  max-width: 700px;
+  padding: 30px 24px;
+}
+section h2 {
+  color: #1565c0;
+  font-size: 1.5rem;
+  margin-bottom: 12px;
+}
+section ul {
+  padding-left: 20px;
+}
+section li {
+  margin-bottom: 8px;
+  font-size: 1.08rem;
+}
+.founder strong {
+  color: #1976d2;
+}
+@media (max-width: 600px) {
+  .home-container {
+    padding: 0 0 20px 0;
+  }
+  section {
+    padding: 18px 8px;
+    max-width: 98vw;
+  }
+  .hero {
+    padding: 30px 10px 20px 10px;
+    background-size: 70px;
+  }
+  .hero h1 {
+    font-size: 2rem;
+  }
+}
